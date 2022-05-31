@@ -1,0 +1,109 @@
+
+body{
+    background: url(http://wonderfulengineering.com/wp-content/uploads/2014/01/Technology-Wallpapers-6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+
+    
+}
+img{
+    padding-top: 1%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15%;
+    overflow-x:hidden ;
+    
+    
+
+}
+form{
+    
+    text-align: center;
+    padding-top: 30px;
+    
+    
+}
+::placeholder{
+    color: dodgerblue;
+}
+p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200%;
+    font-size:20px;
+    color: azure;
+
+}
+input{
+    border: 2px solid white;
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    cursor: pointer;
+    color: #5a84a2;
+    font-size: 25px;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgba(255,255,255,1),
+                -2px -2px 12px rgba(255,255,255,0.5),
+                 inset 2px 2px 4px rgba(255,255,255,0.1),
+                 2px 2px 8px rgba(0,0,0, 0.15);
+
+}
+input:hover{
+    box-shadow: inset -2px -2px 8px rgba(255,255,255,1),
+                inset -2px -2px 12px rgba(255,255,255,0.5),
+                inset  2px 2px 4px rgba(255,255,255,0.1),
+                inset  2px 2px 8px rgba(0,0,0,0.15);
+}
+.button{
+    text-align: center;
+    cursor: pointer;
+}
+button{
+    
+    cursor: grab;
+}
+ 
+.split {
+ height: 100%;
+ width: 50%;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ overflow-x: hidden;
+ padding-top: 20px;
+}
+
+
+.left {
+ left: 0;
+ width: 400px;
+ height: 100%;
+ background-color: gainsboro;
+ opacity: 0.1;
+}
+
+.right {
+ right: 0;
+ width:400px;
+ height: 100%;
+ background-color: gainsboro;
+ opacity: 0.1;
+}
+
+
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
